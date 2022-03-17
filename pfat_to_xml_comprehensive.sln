@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pfat_to_xml_comprehensive", "pfat_to_xml_comprehensive.csproj", "{BEF1397A-9885-49D5-B798-DD4059C38374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pfat_to_xml_test4", "..\pfat_to_xml_test4\pfat_to_xml_test4.csproj", "{63C48081-4B16-43C1-A286-1BA658AD209B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEF1397A-9885-49D5-B798-DD4059C38374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF1397A-9885-49D5-B798-DD4059C38374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF1397A-9885-49D5-B798-DD4059C38374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF1397A-9885-49D5-B798-DD4059C38374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63C48081-4B16-43C1-A286-1BA658AD209B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63C48081-4B16-43C1-A286-1BA658AD209B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63C48081-4B16-43C1-A286-1BA658AD209B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63C48081-4B16-43C1-A286-1BA658AD209B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3AC0F84-928B-4DAC-8D68-3F9460EAD6A1}
+	EndGlobalSection
+EndGlobal
