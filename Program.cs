@@ -111,9 +111,9 @@ namespace Pfat_to_xml_comprehensive
             xmlWriter.WriteStartElement("people");
             if (people.Any())
             {
-                xmlWriter.WriteStartElement("person");
                 foreach (Person p in people)
                 {
+                    xmlWriter.WriteStartElement("person");
                     //p
                     if (!string.IsNullOrEmpty(p.Get_firstname()))
                     {
@@ -235,8 +235,8 @@ namespace Pfat_to_xml_comprehensive
                         }
                         xmlWriter.WriteEndElement(); //familymember
                     }
-                }
-                xmlWriter.WriteEndElement(); //person
+                    xmlWriter.WriteEndElement(); //person
+                }                
             }
             xmlWriter.WriteEndElement(); //people
             xmlWriter.WriteEndDocument();
